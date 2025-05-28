@@ -1,0 +1,61 @@
+<svg width="480" height="240" viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blue-neon" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00fff7"/>
+      <stop offset="1" stop-color="#3a7eff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect x="0" y="0" width="480" height="240" rx="28"
+    fill="#1e1e1e"
+    stroke="url(#blue-neon)" stroke-width="3"/>
+  <!-- Neon border accent -->
+  <rect x="4" y="4" width="472" height="232" rx="22"
+    fill="none" stroke="url(#blue-neon)" stroke-width="2" opacity="0.6"/>
+  <!-- Controller icon -->
+  <g>
+    <path d="M55 105 Q50 80 90 80 H170 Q210 80 205 105 Q200 130 130 130 H90 Q60 130 55 105" fill="#222d3d" stroke="url(#blue-neon)" stroke-width="3"/>
+    <rect x="100" y="100" width="9" height="21" rx="2" fill="#00fff7"/>
+    <rect x="93" y="111" width="22" height="9" rx="2" fill="#00fff7"/>
+    <circle cx="165" cy="105" r="6" fill="#222d3d" stroke="#00fff7" stroke-width="2"/>
+    <circle cx="156" cy="115" r="4" fill="#222d3d" stroke="#3a7eff" stroke-width="2"/>
+    <circle cx="168" cy="121" r="3" fill="#222d3d" stroke="#fff" stroke-width="2"/>
+  </g>
+  <!-- Glitch bars -->
+  <rect x="60" y="84" width="14" height="3" fill="#00fff7" opacity="0.35"/>
+  <rect x="140" y="125" width="20" height="3" fill="#3a7eff" opacity="0.2"/>
+  <rect x="95" y="94" width="8" height="2" fill="#fff" opacity="0.11"/>
+  <!-- Title -->
+  <text x="240" y="54" fill="url(#blue-neon)" font-size="28" font-family="monospace" font-weight="bold" text-anchor="middle">
+    Developer Overview
+  </text>
+  <!-- Subtitle -->
+  <text x="240" y="85" fill="#c9eaff" font-size="16" font-family="monospace" text-anchor="middle">
+    Full-stack Developer • Modern Coding • Open Source
+  </text>
+  <!-- Skills -->
+  <g font-family="monospace" font-size="15" font-weight="bold">
+    <rect x="60" y="150" width="360" height="52" rx="11" fill="#222d3d" opacity="0.78"/>
+    <!-- JS -->
+    <circle cx="90" cy="176" r="10" fill="#f7e018" />
+    <text x="105" y="181" fill="#fff">JavaScript</text>
+    <!-- Python -->
+    <circle cx="200" cy="176" r="10" fill="#3572A5" />
+    <text x="215" y="181" fill="#fff">Python</text>
+    <!-- TypeScript -->
+    <circle cx="300" cy="176" r="10" fill="#3178c6" />
+    <text x="315" y="181" fill="#fff">TypeScript</text>
+    <!-- C# -->
+    <circle cx="400" cy="176" r="10" fill="#68217a" />
+    <text x="415" y="181" fill="#fff">C#</text>
+  </g>
+  <!-- Coding icons row -->
+  <g>
+    <text x="85" y="210" font-size="16" fill="#00fff7" font-family="monospace" font-weight="bold">&#60;/&#62;</text>
+    <text x="145" y="210" font-size="16" fill="#3a7eff" font-family="monospace" font-weight="bold">&#x1F4BB;</text>
+    <text x="205" y="210" font-size="16" fill="#00fff7" font-family="monospace" font-weight="bold">&#x1F3AE;</text>
+    <text x="265" y="210" font-size="16" fill="#3a7eff" font-family="monospace" font-weight="bold">&#x1F5A5;</text>
+    <text x="325" y="210" font-size="16" fill="#00fff7" font-family="monospace" font-weight="bold">&#x1F916;</text>
+    <text x="385" y="210" font-size="16" fill="#3a7eff" font-family="monospace" font-weight="bold">&#x2728;</text>
+  </g>
+</svg>
